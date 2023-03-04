@@ -1,0 +1,60 @@
+:root {
+    --primary: #f84227;
+    --secundary: #ffb143;
+    --terciary: #ffe7d1;
+    --blanco: #ffffff;
+    --principalFont: 'Poppins', sans-serif;
+    --secundaryFont: 'Montserrat', sans-serif;
+}
+
+
+[class$='btn'] {
+    padding: 0.5rem;
+    border: unset;
+    border-style: none;
+    border-radius: 3px;
+    transition: 300ms;
+}
+
+[class$='btn']:hover {
+    background-color: var(--secundary);
+    cursor: pointer;
+}
+
+body {
+    background-color: #313131;
+    color: white;
+    font-family: var(--principalFont);
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    justify-content: center;
+    text-align: center;
+}
+
+.cuadricula {
+    width: 100%;
+    background-color: #2a2929;
+    padding: 1rem;
+    text-align: center;
+}
+
+.cuadricula-capa {
+    width: auto;
+}
+
+.cuadricula-capa .titulo {
+    font-size: 34px;
+}
+
+
+.botones-capa .btn {
+    border-radius: 10px;
+    border: 2px solid #222222;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    flex-grow: 1;
+}
+
+.parrafo {
+    font-size: 3rem;
+}
